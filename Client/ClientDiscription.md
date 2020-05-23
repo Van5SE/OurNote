@@ -1,0 +1,14 @@
+整个OurNote的客户端主要可以分为三块：登录注册模块，OurNote的笔记本主体模块，以及OurNote菜单栏功能模块
+
+整个项目的逻辑主要是：在按钮点击后，先传输工作状态码给服务器并进行一系列工作，以workstatus变量表示工作状态。
+workstatus 的值对应功能为： 10x登录 20x注册 30x保存 40x打开 50x删除 60x查找 70x下载
+
+登录注册模块有login.java和register.java两个模块
+其中两个picture用来美化登录注册界面
+主要实现登录和注册功能
+
+OurNote的笔记本主体模块有OurNote.java
+主要实现文字输入和执行功能功能
+
+OurNote菜单栏功能模块有store\open\delete\find\download.java
+主要实现名称中的对应功能
