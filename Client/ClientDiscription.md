@@ -12,3 +12,6 @@ OurNote的笔记本主体模块有OurNote.java
 
 OurNote菜单栏功能模块有store\open\delete\find\download.java
 主要实现名称中的对应功能
+
+Userinfo.java是用来ObjecOutputStream传输由账户和密码组成的Object的
+注意：要以Object的方式传输时，客户端和服务端都必须有Userinfo.java文件并且文件需要在同一包名下，不然会出现找不到对应类的错误
